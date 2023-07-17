@@ -1,0 +1,87 @@
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+/* {the document selector} */
+html {
+  scroll-behavior: smooth;
+background-color: #091214;
+}
+
+/* Center ~O~ Emblem */
+.brand {
+  background-color: black;
+  background: black;
+}
+h5 {
+  color: white;
+ position:-webkit-sticky; 
+}
+.brandPng {
+  position:webkit-sticky
+  width: 100px;
+  height: 100px;
+  }
+
+/* <__Nav Bar Styling_> */
+.nav {
+  display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 10vh;
+  background: black;
+  display: flex;
+  text-decoration: none;
+}
+
+/* nav Bar items styling */
+li {
+  padding: 5px 15px;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-right: 10px;
+  list-style: none;
+  text-decoration:none;
+  border: none;
+}
+li:focus {outline: none;}
+
+
+/* nav bar styling for event triggers*/
+.nav a{
+  text-decoration: none;
+  }
+  .nav a:hover,
+  .nav a:focus,
+  .nav a:active {
+  color: #F9A300;
+  } 
+
+
+button.launch{
+  background-color: #F9A300;
+  border: none;
+  height: 40px;
+  padding: 5px 15px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+button.launch:hover{
+  cursor: pointer;
+    background-color: #FABD44;
+}

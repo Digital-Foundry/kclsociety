@@ -1,0 +1,109 @@
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+/* the document selector */
+html {
+scroll-behavior: smooth;
+background-color: #091214;
+}
+
+/* center Emblem */
+.brand {
+
+position: fixed;
+}
+h5 {
+color: white;
+background-color: black;
+background: black;
+position:-webkit-sticky; 
+}
+.brandPng {
+position:webkit-sticky
+width: 50px;
+height: 50px;
+}
+
+
+/* Nav Bar Styling */
+.nav {
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+justify-content: space-around;
+align-items: center;
+min-height: 10vh;
+background: black;
+color: brown;
+display: flex;
+text-decoration: none;
+}
+
+/* nav bar styling for build in events*/
+.nav a{
+text-decoration: none;
+}
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+color: #F9A300;
+} 
+.nav a:hover {
+  font-size: 15px;
+	font-weight: 600;
+	transition: .9s;
+}
+
+li {
+padding: 5px 15px;
+font-size: 12px;
+font-weight: 300;
+margin-top: 10px;
+margin-right: 10px;
+list-style: none;
+text-decoration:none;
+border: none;
+}
+li:focus {outline: none;}
+
+
+button.launch{
+background-color: #e6592a;
+border: none;
+height: 40px;
+padding: 5px 15px;
+color: #ffffff;
+font-size: 16px;
+font-weight: 300;
+margin-top: 10px;
+margin-right: 10px;
+}
+
+button.launch:hover{
+cursor: pointer;
+  background-color: #ffaa65;
+  color: greenyellow;
+}
+
+
+/* @media screen and (max-width: 768px) {} */
+
+
+
+/* SHAPES FOR DEBUGGING */
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 87px solid red; /* Change the color as desired */
+}
